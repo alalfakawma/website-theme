@@ -162,6 +162,25 @@ h3 {
 	margin-bottom: 20px;
 }
 
+#comments-meta {
+	position: absolute;
+	right: 10px;
+	top: 7px;
+}
+
+#comments {
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #1f1f1f;
+	position: absolute;
+	top: 13px;
+	right: 28px;
+}
+
+.font-awesome {
+	color: #dfdfdf;
+}
+
 #post-meta-box {
 	background-color: #ededed;
 	width: 100px;
