@@ -20,6 +20,7 @@ Tags: responsive, aseem, lalfakawma, tutorial, gamer, blogger, web developer, ha
 
 body {
 	font-family: Raleway, sans-serif;
+	-webkit-font-smoothing: antialiased !important;
 }
 
 /* OTHER IMPORTANT STYLES */
@@ -46,6 +47,7 @@ body {
 	background-image: url(img/background.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
+	position: relative;
 }
 
 #main-nav {
@@ -65,9 +67,64 @@ body {
 	margin-right: 20px;
 	font-size: 20px;
 	font-weight: 700;
+	letter-spacing: .5px;
+}
+
+#main-nav ul li:hover {
+	border-bottom: 1px solid #fff;
 }
 
 #main-nav ul li a {
 	text-decoration: none;
 	color: #fff;
 }
+
+		/* STYLE TITLE PORTION */
+
+#title {
+	text-align: center;
+	position: relative;
+	top: 27%;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 5em;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-color: #fff;
+    border-style: thin;
+    border-width: 1px;
+}
+
+h3 {
+	font-weight: 700;
+	color: #fff;
+	font-size: 2em;
+}
+
+	/* ARROW */
+
+#arrow {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #fff;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+  	transform: translateX(-50%);
+  	opacity: .5;
+  	cursor: pointer;
+}
+
+/* END HEADER PORTION */
