@@ -159,6 +159,7 @@ h3 {
 	height: 100px;
 	border-bottom: 3px solid #ededed; 
 	position: relative;
+	margin-bottom: 20px;
 }
 
 #post-meta-box {
@@ -183,6 +184,18 @@ h3 {
 	position: absolute;
 	bottom: 10px;
 	left: 120px;
+}
+
+#post-thumbnail {
+	height: 350px;
+	background-image: url(img/thumbnail.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+#post-content {
+	text-align: justify;
 }
 
 
