@@ -131,6 +131,11 @@ h3 {
 
 /* START MAIN SECTION */
 
+#post-wrapper {
+	max-width: 900px;
+	margin-bottom: 20px;
+}
+
 #main-wrapper {
 	padding: 0 25px;
 }
@@ -139,7 +144,6 @@ h3 {
 	text-align: center;
 	background-color: #dfdfdf;
 	height: 50px;
-	width: 900px;
 	max-width: 100%;
 	margin: 20px 0;
 }
@@ -149,4 +153,34 @@ h3 {
 	font-weight: 800;
 	font-size: 1.3em;
 	color: #1f1f1f;
+}
+
+#post-meta {
+
+}
+
+#post-meta-box {
+	background-color: #ededed;
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* STYLE FOOTER */
+
+footer {
+	text-align: center;
+	font-size: 80%;
+	padding: 10px 0;
+	border-top: 1px solid #1f1f1f;
+	border-bottom: 8px solid #1f1f1f;
 }
