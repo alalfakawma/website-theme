@@ -1,0 +1,24 @@
+/*
+Theme Name: Simple Living
+Theme URI: http://alalfakawma.in
+Author: Aseem Lalfakawma
+Author URI: http://alalfakawma.in
+Description: Just a small simple theme for my blog
+Version: 1.0
+Tags: responsive, aseem, lalfakawma, tutorial, gamer, blogger, web developer, hack, hacking, theme, free, wordpress, javascript, jQuery, alalfakawma, simple, modern, minimalistic.
+*/
+
+/* CSS RESET */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* STYLE HEADER PORTION */
+
+#main-header {
+	height: 700px;
+	
+}
