@@ -156,13 +156,33 @@ h3 {
 }
 
 #post-meta {
-
+	height: 100px;
+	border-bottom: 3px solid #ededed; 
+	position: relative;
 }
 
 #post-meta-box {
 	background-color: #ededed;
 	width: 100px;
 	height: 100px;
+	text-align: center;
+	padding: 7px 0;
+}
+
+#post-meta-box #meta-data {
+	font-size: 50px;
+}
+
+#post-meta-box #meta-data div {
+	font-size: initial;
+}
+
+#post-title {
+	font-weight: 400;
+	font-size: 4em;
+	position: absolute;
+	bottom: 10px;
+	left: 120px;
 }
 
 
