@@ -129,15 +129,37 @@ h3 {
 
 /* END HEADER PORTION */
 
-/* START MAIN SECTION */
+/* START MAIN-POST SECTION */
 
 #post-wrapper {
 	max-width: 900px;
 	margin-bottom: 20px;
+	float: left;
+}
+
+#main-post::after {
+	content: " ";
+	margin: 20px auto;
+	height: 2px;
+	width: 300px;
+	text-align: center;
+	background-color: #dfdfdf;
+	display: block;
+}
+
+#main-post:last-of-type::after {
+	content: " ";
+	margin: 0 auto;
+	height: 0;
+	width: 350px;
+	text-align: center;
+	background-color: transparent;
+	display: block;
 }
 
 #main-wrapper {
 	padding: 0 25px;
+	margin-bottom: 20px;
 }
 
 #section-header-box {
@@ -218,9 +240,111 @@ h3 {
 }
 
 
+/* END MAIN-POST SECTION */
 
+/* START SIDEBAR */
 
+#sidebar-wrapper {
+	width: 225px;
+	max-width: 100%;
+	float: right;
+}
 
+#sidebar-widget {
+	margin-bottom: 20px;
+}
+
+#about-header-box {
+	text-align: center;
+	background-color: #dfdfdf;
+	height: 50px;
+	max-width: 100%;
+	margin: 20px 0;
+}
+
+#about-header-box span {
+	line-height: 50px;
+	font-weight: 800;
+	font-size: 1.3em;
+	color: #1f1f1f;
+}
+
+.sidebar-content {
+	text-align: justify;
+}
+
+#recent-header-box {
+	text-align: center;
+	background-color: #dfdfdf;
+	height: 50px;
+	max-width: 100%;
+	margin: 20px 0;
+}
+
+#recent-header-box span {
+	line-height: 50px;
+	font-weight: 800;
+	font-size: 1.3em;
+	color: #1f1f1f;
+}
+
+#recent-header-box {
+	text-align: center;
+	background-color: #dfdfdf;
+	height: 50px;
+	max-width: 100%;
+	margin: 20px 0;
+}
+
+#recent-header-box span {
+	line-height: 50px;
+	font-weight: 800;
+	font-size: 1.3em;
+	color: #1f1f1f;
+}
+
+#social-header-box {
+	text-align: center;
+	background-color: #dfdfdf;
+	height: 50px;
+	max-width: 100%;
+	margin: 20px 0;
+}
+
+#social-header-box span {
+	line-height: 50px;
+	font-weight: 800;
+	font-size: 1.3em;
+	color: #1f1f1f;
+}
+
+#social-media {
+	list-style-type: none;
+	text-align: center;
+}
+
+#social-media li {
+	display: inline-block;
+	background-color: #dfdfdf;
+	border-radius: 100%;
+	padding: 5px 9px;
+	margin-right: 10px;
+}
+
+#social-media li a {
+	font-size: 25px;
+	color: #1f1f1f;
+}
+
+#social-media li:hover a {
+	transition: color 1s;
+	color: #dfdfdf;
+}
+
+#social-media li:hover {
+	transition: background-color 1s;
+	background-color: #1f1f1f;
+}
 
 
 
