@@ -8,7 +8,7 @@ Version: 1.0
 Tags: responsive, aseem, lalfakawma, tutorial, gamer, blogger, web developer, hack, hacking, theme, free, wordpress, javascript, jQuery, alalfakawma, simple, modern, minimalistic.
 */
 
-/* CSS RESET */
+	/* CSS RESET */
 
 * {
 	padding: 0;
@@ -16,14 +16,14 @@ Tags: responsive, aseem, lalfakawma, tutorial, gamer, blogger, web developer, ha
 	box-sizing: border-box;
 }
 
-/* BODY STYLE */
+	/* BODY STYLE */
 
 body {
 	font-family: Raleway, sans-serif;
 	-webkit-font-smoothing: antialiased !important;
 }
 
-/* OTHER IMPORTANT STYLES */
+	/* OTHER IMPORTANT STYLES */
 
 .container {
 	width: 1200px !important;
@@ -39,7 +39,7 @@ body {
 	border-bottom: 1px solid #fff;
 }
 
-/* STYLE HEADER PORTION */
+	/* STYLE HEADER PORTION */
 
 #main-header {
 	width: 100%;
@@ -127,9 +127,13 @@ h3 {
   	cursor: pointer;
 }
 
-/* END HEADER PORTION */
+#arrow:hover {
+	opacity: .7;
+}
 
-/* START MAIN-POST SECTION */
+	/* END HEADER PORTION */
+
+	/* START MAIN-POST SECTION */
 
 #post-wrapper {
 	max-width: 900px;
@@ -240,9 +244,9 @@ h3 {
 }
 
 
-/* END MAIN-POST SECTION */
+	/* END MAIN-POST SECTION */
 
-/* START SIDEBAR */
+	/* START SIDEBAR */
 
 #sidebar-wrapper {
 	width: 225px;
@@ -346,12 +350,9 @@ h3 {
 	background-color: #1f1f1f;
 }
 
+	/* SIDEBAR END */
 
-
-
-
-
-/* STYLE FOOTER */
+	/* STYLE FOOTER */
 
 footer {
 	text-align: center;
