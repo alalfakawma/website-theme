@@ -39,6 +39,11 @@ body {
 	border-bottom: 1px solid #fff;
 }
 
+a {
+	text-decoration: none;
+	color: #1f1f1f;
+}
+
 	/* STYLE HEADER PORTION */
 
 #main-header {
@@ -224,13 +229,20 @@ h3 {
 
 #post-title {
 	font-weight: 400;
-	font-size: 4em;
+	font-size: 3em;
 	position: absolute;
-	bottom: 10px;
+	bottom: 20px;
 	left: 120px;
 }
 
+#post-title a:hover {
+	-webkit-transition: color 1s;
+	transition: color 1s;
+	color: #dfdfdf;
+}
+
 #post-thumbnail {
+	text-align: center;
 	height: 350px;
 	background-image: url(img/thumbnail.jpg);
 	background-size: cover;
