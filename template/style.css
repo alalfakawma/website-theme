@@ -263,6 +263,16 @@ h3 {
 	width: 225px;
 	max-width: 100%;
 	float: right;
+	margin-bottom: 20px;
+}
+
+#sidebar-wrapper::after {
+	content: " ";
+	display: block;
+	width: 50px;
+	height: 2px;
+	margin: 20px 39.8%;
+	background-color: #dfdfdf;
 }
 
 #sidebar-widget {
@@ -343,7 +353,11 @@ h3 {
 	background-color: #dfdfdf;
 	border-radius: 100%;
 	padding: 5px 9px;
-	margin-right: 10px;
+	margin-right: 20px;
+}
+
+#social-media li:last-of-type {
+	margin-right: 0;
 }
 
 #social-media li a {
