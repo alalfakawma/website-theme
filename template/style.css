@@ -340,11 +340,13 @@ h3 {
 }
 
 #social-media li:hover a {
+	-webkit-transition: color 1s;
 	transition: color 1s;
 	color: #dfdfdf;
 }
 
 #social-media li:hover {
+	-webkit-transition: background-color 1s;
 	transition: background-color 1s;
 	background-color: #1f1f1f;
 }
@@ -377,3 +379,5 @@ footer {
 	border-top: 1px solid #1f1f1f;
 	border-bottom: 8px solid #1f1f1f;
 }
+
+	/* END FOOTER */
