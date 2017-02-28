@@ -3,7 +3,7 @@ $(document).ready(function () {
 	// Scroll down with arrow click
 
 	$("#arrow").click(function() {
-	    $('html,body').animate({scrollTop: $("#main-wrapper").offset().top},'slow');
+	    $('html,body').animate({scrollTop: $("#main-wrapper").offset().top - 25},'slow');
 	});
 
 	// Sroll to top

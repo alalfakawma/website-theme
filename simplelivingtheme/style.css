@@ -140,7 +140,8 @@ h3 {
 	/* START MAIN-POST SECTION */
 
 #post-wrapper {
-	max-width: 900px;
+	width: 900px;
+	max-width: 100%;
 	margin-bottom: 20px;
 	float: left;
 }
@@ -220,11 +221,11 @@ h3 {
 }
 
 #post-meta-box #meta-data {
-	font-size: 50px;
+	font-size: 45px;
 }
 
 #post-meta-box #meta-data div {
-	font-size: initial;
+	font-size: 18px;
 }
 
 #post-title {
@@ -243,11 +244,12 @@ h3 {
 
 #post-thumbnail {
 	text-align: center;
-	height: 350px;
-	background-image: url(img/thumbnail.jpg);
-	background-size: cover;
-	background-position: center;
 	margin-bottom: 20px;
+}
+
+#post-thumbnail img {
+	width: 900px;
+	max-width: 100%;
 }
 
 #post-content {
@@ -313,20 +315,18 @@ h3 {
 	color: #1f1f1f;
 }
 
-#recent-header-box {
-	text-align: center;
-	background-color: #dfdfdf;
-	height: 50px;
-	max-width: 100%;
-	margin: 20px 0;
+.recent li {
+	list-style-type: none;
+	margin: 10px 0;
+	font-weight: 700;
 }
 
-#recent-header-box span {
-	line-height: 50px;
-	font-weight: 800;
-	font-size: 1.3em;
-	color: #1f1f1f;
+.recent li:hover a {
+	-webkit-transition: color 1s;
+	transition: color 1s;
+	color: #dfdfdf;
 }
+
 
 #social-header-box {
 	text-align: center;
@@ -398,6 +398,12 @@ h3 {
 	opacity: .7;
 }
 
+/* STYLE PAGE PHP */
+
+#page-php {
+	margin-top: 20px;
+}
+
 		/* END SCROLL TO TOP */
 
 	/* STYLE FOOTER */
@@ -410,4 +416,4 @@ footer {
 	border-bottom: 8px solid #1f1f1f;
 }
 
-	/* END FOOTER */
+	/* END FOOTER 
