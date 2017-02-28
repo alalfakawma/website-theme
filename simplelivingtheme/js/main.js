@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+	// Run functions
+
+	checkScroll();
+
 	// Scroll down with arrow click
 
 	$("#arrow").click(function() {
@@ -9,19 +13,19 @@ $(document).ready(function () {
 	// Sroll to top
 
 	$("#scroll-top").click(function() {
-		$("html,body").animate({scrollTop: $("#main-header").offset().top}, "slow");
+		$("html,body").animate({scrollTop:0}, "slow");
 	});
 
 	// Show scroll to top
 
-	$(window).scroll(function() {
+	$(window).scroll(checkScroll)
 
-	    if ($(this).scrollTop() > ($("#main-header").height())) {
+	function checkScroll() {
+		if ($(this).scrollTop() > ($("#section-header-box").offset().top)) {
 	        $('#scroll-top').fadeIn();
 	    } else {
 	        $('#scroll-top').fadeOut();
 	    }
-	    
-	});
+	}
 
 });
