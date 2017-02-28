@@ -4,7 +4,7 @@
 			<div class="sidebar-widget">
 				<div id="about-header-box"><span>ABOUT ME</span></div>
 					<div class="sidebar-content">
-						Learning web developer. CSS/HTML/JS/PHP beginner. Mostly at home. Kinda anti-social. 
+						Learning web developer. CSS/HTML/JS/PHP beginner. Mostly at home. Can solve one side of the rubik's cube *yeah that's an achievement worth mentioning!* 
 						<br>
 						<br>
 						P.S This theme is free to use and is on my github, check the footer.

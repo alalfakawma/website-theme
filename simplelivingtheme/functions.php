@@ -3,7 +3,7 @@
 add_theme_support("post-thumbnails"); 
 add_theme_support("menus");
 
-add_image_size("custom", 900, 400);
+add_image_size("custom", 900, 650);
 
 function getResources() {
 	wp_enqueue_style("style", get_stylesheet_uri());
@@ -11,3 +11,5 @@ function getResources() {
 }
 
 add_action("wp_enqueue_scripts", "getResources");
+
+?>
