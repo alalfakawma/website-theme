@@ -2,8 +2,8 @@
 New website theme.. duuuh
 
 
-- DONE the templating with HTML/CSS
-- Starting the dynamic elements with PHP/Wordpress API
+# DONE the templating with HTML/CSS
+# Starting the dynamic elements with PHP/Wordpress API
 
 
 * Need to add comments section
