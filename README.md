@@ -2,8 +2,10 @@
 New website theme.. duuuh
 
 
-# STARTING DEVELOPMENT....
+- DONE the templating with HTML/CSS
+- Starting the dynamic elements with PHP/Wordpress API
 
 
-
-- Starting the templating with HTML/CSS
+* Need to add comments section
+* Need to add read more class
+* Need to add pagination links
