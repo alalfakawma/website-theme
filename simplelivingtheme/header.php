@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Simple Living Theme</title>
+	<title><?php bloginfo("name"); ?></title>
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 	<div id="main-header" class="container">
 
 		<nav id="main-nav">
@@ -15,9 +15,9 @@
 		</nav>
 
 		<div id="title" class="clearfix">
-			<h1>Aseem Lalfakawma</h1>
+			<a href="<?php echo home_url(); ?>"><h1><?php bloginfo("name"); ?></h1></a>
 			<hr>
-			<h3>Web Developer | Blogger</h3>
+			<h3><?php bloginfo("description"); ?></h3>
 		</div>
 
 		<div id="arrow"></div>
