@@ -7,5 +7,6 @@ New website theme.. duuuh
 
 
 * <s>Need to add comments section</s>
+* Need to add Search Bar
 * Need to add read more class
 * Need to add pagination links
