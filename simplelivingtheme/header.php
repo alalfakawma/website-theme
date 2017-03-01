@@ -26,8 +26,9 @@
 	<div id="main-wrapper" class="container">
 
 		<!-- START OF POST -->
-
-		<div id="post-wrapper">
+		<?php if (!is_404()) { ?>
+			<div id="post-wrapper">
+		<?php } ?>
 		<?php if (is_front_page()) : ?>
 			<div id="section-header-box"><span>POSTS</span></div>
 		<?php endif; ?>

@@ -1,8 +1,16 @@
-</div>
+<?php if (!is_404()) { ?>
+	</div>
+<?php } ?>
 
 		<!-- END OF POST -->
+		
+		<?php
 
-		<?php get_sidebar(); ?>
+			if (!is_404()) {
+				get_sidebar(); 
+			}
+
+		?>
 		
 		<div class="clearfix"></div>
 

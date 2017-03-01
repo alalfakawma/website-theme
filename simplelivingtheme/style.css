@@ -347,7 +347,7 @@ h3 {
 .sidebar-header-box span {
 	line-height: 50px;
 	font-weight: 800;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: #1f1f1f;
 }
 
@@ -403,7 +403,40 @@ h3 {
 	background-color: #1f1f1f;
 }
 
+#get-archives li {
+	list-style-type: none;
+	border-bottom: 1px dotted #dfdfdf;
+	margin-bottom: 5px;
+	padding: 5px 0;
+}
+
+#get-archives li:last-child {
+	margin-bottom: 0;
+}
+
 	/* SIDEBAR END */
+
+	/* 404 PAGE */
+
+.pagenotfound {
+	text-align: center;
+	padding: 200px 0;
+}
+
+.pagenotfound h1 {
+	color: #1f1f1f;
+}
+
+.pagenotfound h1::after {
+	content: " ";
+	display: block;
+	background-color: #1f1f1f;
+	width: 200px;
+	height: 1px;
+	margin: 10px auto;
+}
+
+	/* END 404 PAGE */
 
 		/* SCROLL TO TOP BUTTON */
 

@@ -32,7 +32,9 @@
 			<div class="sidebar-widget">
 				<div class="sidebar-header-box post-archives"><span>ARCHIVES</span></div>
 					<div class="sidebar-content">
-						<?php wp_get_archives("type=yearly"); ?>
+						<ul id="get-archives">
+							<?php wp_get_archives( array( 'type' => 'monthly', 'limit' => 8, ) ); ?>
+						</ul>
 					</div>
 			</div>
 
