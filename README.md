@@ -6,7 +6,7 @@ New website theme.. duuuh
 # Starting the dynamic elements with PHP/Wordpress API
 
 
-* <s>Need to add comments section</s>
+* ~Need to add comments section~
 * Need to add Search Bar
-* Need to add read more class
+* ~Need to add read more class~
 * Need to add pagination links
