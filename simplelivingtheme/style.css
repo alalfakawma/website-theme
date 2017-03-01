@@ -313,6 +313,18 @@ h3 {
 	position: relative;
 }
 
+#posts-nav-link a {
+	border-bottom: 1px dotted #999;
+}
+
+#posts-nav-link a:first-child {
+	float: left;
+}
+
+#posts-nav-link a:last-child {
+	float: right;
+}
+
 	/* END MAIN-POST SECTION */
 
 	/* START SIDEBAR */
@@ -329,7 +341,7 @@ h3 {
 	display: block;
 	width: 50px;
 	height: 2px;
-	margin: 20px 39.8%;
+	margin: 20px auto;
 	background-color: #dfdfdf;
 }
 
@@ -379,20 +391,18 @@ h3 {
 	display: inline-block;
 	background-color: #dfdfdf;
 	border-radius: 100%;
-	padding: 5px 9px;
-	margin-right: 20px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
 }
 
-#social-media li:last-of-type {
-	margin-right: 0;
-}
-
-#social-media li a {
+#social-media a {
+	text-align: center;
 	font-size: 25px;
 	color: #1f1f1f;
 }
 
-#social-media li:hover a {
+#social-media a:hover i {
 	-webkit-transition: color 1s;
 	transition: color 1s;
 	color: #dfdfdf;
@@ -413,6 +423,24 @@ h3 {
 
 #get-archives li:last-child {
 	margin-bottom: 0;
+}
+
+form {
+	margin: 20px 0;
+}
+
+#search-input {
+	width: 225px;
+	height: 50px;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+	padding: 5px;
+	outline: none;
+	border: 1px solid #dfdfdf;
+}
+
+form ::-webkit-input-placeholder {
+	color: #1f1f1f;
 }
 
 	/* SIDEBAR END */
@@ -601,3 +629,7 @@ footer {
 }
 
 	/* END FOOTER 
+
+
+/* ------------------------------------- START MEDIA QUERIES -------------------------------------- */
+

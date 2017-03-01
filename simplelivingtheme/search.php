@@ -3,7 +3,7 @@
 <?php if (have_posts()) : ?>
 	<article id="page-php">
 
-	<h1 style="color: #1f1f1f; font-size: 300%;">CATEGORY : <?php single_cat_title(); ?></h1>
+	<h1 style="color: #1f1f1f; font-size: 200%;">Search Results for : <?php the_search_query(); ?></h1>
 	<?php while(have_posts()) : the_post(); ?>
 
 			<div id="main-post">
@@ -29,6 +29,10 @@
 
 	</article>
 
+<?php else : ?>
+	<article id="page-php">
+		<h1 style="color: #1f1f1f; font-size: 200%;">No results found for <?php the_search_query(); ?>.</h1>
+	</article>
 <?php endif; ?>
 
 <?php get_footer(); ?>

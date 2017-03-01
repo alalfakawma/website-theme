@@ -39,12 +39,16 @@
 			</div>
 
 			<div class="sidebar-widget">
+				<?php get_search_form(); ?>
+			</div>
+
+			<div class="sidebar-widget">
 				<div class="sidebar-header-box"><span>SOCIAL MEDIA</span></div>
 					<div class="sidebar-content">
 						<ul id="social-media">
-							<li><a href="https://twitter.com/r4xee" target="_blank"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://instagram.com/aseem_26" target="_blank"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="https://github.com/alalfakawma" target="_blank"><i class="fa fa-github"></i></a></li>
+							<a href="https://twitter.com/r4xee" target="_blank"><li><i class="fa fa-twitter"></i></li></a>
+							<a href="https://instagram.com/aseem_26" target="_blank"><li><i class="fa fa-instagram"></i></li></a>
+							<a href="https://github.com/alalfakawma" target="_blank"><li><i class="fa fa-github"></i></li></a>
 						</ul>
 					</div>
 			</div>

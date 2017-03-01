@@ -23,8 +23,13 @@
 			</div>
 		</div>
 
-	<?php endwhile; 
+	<?php endwhile; ?>
 
+	<div id="posts-nav-link">
+		<?php posts_nav_link( " ", "Previous Page", "Next Page" ); ?>		
+	</div>
+	
+<?php
 }
 else 
 {

@@ -22,6 +22,11 @@
 			</div>
 
 	<?php endwhile; ?>
+
+		<div id="posts-nav-link">
+			<?php posts_nav_link( " ", "Previous Page", "Next Page" ); ?>
+		</div>
+
 	</article>
 
 <?php endif; ?>
