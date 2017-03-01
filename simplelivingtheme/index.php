@@ -11,6 +11,7 @@
 				</div>
 				<div id="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>	
 				<div id="comments-meta"><a href="<?php the_permalink(); ?>"><div id="comments"><?php comments_number( "0", "1", "%" ); ?></div><i class="fa fa-comment fa-5x font-awesome"></i></a></div>
+				<div id="post-category"><ul><?php the_category(); ?> </ul></div>
 			</div>
 
 			<?php if (has_post_thumbnail()) : ?>

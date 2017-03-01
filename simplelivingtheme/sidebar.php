@@ -2,7 +2,7 @@
 
 		<div id="sidebar-wrapper">
 			<div class="sidebar-widget">
-				<div id="about-header-box"><span>ABOUT ME</span></div>
+				<div class="sidebar-header-box"><span>ABOUT ME</span></div>
 					<div class="sidebar-content">
 						Learning web developer. CSS/HTML/JS/PHP beginner. Mostly at home. Can solve one side of the rubik's cube *yeah that's an achievement worth mentioning!* 
 						<br>
@@ -12,7 +12,7 @@
 			</div>
 
 			<div class="sidebar-widget">
-				<div id="recent-header-box"><span>RECENT POSTS</span></div>
+				<div class="sidebar-header-box"><span>RECENT POSTS</span></div>
 					<div class="sidebar-content">
 						<ul class="recent">
 							<?php
@@ -30,7 +30,14 @@
 			</div>
 
 			<div class="sidebar-widget">
-				<div id="social-header-box"><span>SOCIAL MEDIA</span></div>
+				<div class="sidebar-header-box post-archives"><span>ARCHIVES</span></div>
+					<div class="sidebar-content">
+						<?php wp_get_archives("type=yearly"); ?>
+					</div>
+			</div>
+
+			<div class="sidebar-widget">
+				<div class="sidebar-header-box"><span>SOCIAL MEDIA</span></div>
 					<div class="sidebar-content">
 						<ul id="social-media">
 							<li><a href="https://twitter.com/r4xee" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -39,6 +46,5 @@
 						</ul>
 					</div>
 			</div>
-
 
 		</div>

@@ -10,6 +10,7 @@
 				</div>
 				<div id="post-title"><?php the_title(); ?></div>	
 				<div id="comments-meta"><div id="comments"><?php comments_number( "0", "1", "%" ); ?></div><i class="fa fa-comment fa-5x font-awesome"></i></div>
+				<div id="post-category"><ul><?php the_category(); ?></ul></div>
 			</div>
 
 			<?php if (has_post_thumbnail()) : ?>
@@ -21,7 +22,7 @@
 			</div>
 
 			<?php comments_template(); ?>
-			
+
 	</div>
 	</article>
 
