@@ -242,7 +242,7 @@ h3 {
 }
 
 #post-title {
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 3em;
 	position: absolute;
 	bottom: 20px;
@@ -425,6 +425,124 @@ h3 {
 }
 
 		/* END SCROLL TO TOP */
+
+	/* STYLE COMMENTS SECTION */
+
+#comments-section {
+	margin: 20px 0;
+}
+
+#comments-title {
+	text-align: center;
+	padding: 10px 0;
+	font-weight: 700;
+	font-size: 2.5em;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#main-comments {
+	margin-top: 20px;
+}
+
+#comment-meta {
+	font-size: 13px;
+}
+
+#comment-meta::after {
+	content: " ";
+	display: block;
+	background-color: #dfdfdf;
+	width: 200px;
+	height: 1px;
+	margin: 10px auto;
+}
+
+.comments {
+	list-style-type: none;
+	margin-top: 20px;
+	border: 1px solid #dfdfdf;
+	padding: 20px;
+}
+
+#no-comment-text {
+	padding: 10px 0;
+	text-align: center;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	margin: 20px 0;
+	color: #1f1f1f;
+	font-size: 130%;
+}
+
+#main-comments li:first-child {
+	margin-top: 0;
+}
+
+.comment-author {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.comment-author a:hover {
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	color: #dfdfdf;
+}
+
+		/* STYLE COMMENTS FORM */
+
+.input-fields {
+	padding: 10px 5px;
+	width: 900px;
+	max-width: 100%;
+	margin-bottom: 20px;
+	outline: none;
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	border: 1px solid #dfdfdf;
+}
+
+.input-fields::-webkit-input-placeholder {
+	color: #1f1f1f;
+}
+
+#textarea {
+	width: 900px;
+	max-width: 100%;
+	color: #1f1f1f;
+	font-size: 16px;
+	font-family: Raleway, sans-serif;
+	padding: 5px 5px;
+	margin-bottom: 16px;
+	border: 1px solid #dfdfdf;
+	outline: none;
+}
+
+#submit-button {
+	width: 900px;
+	max-width: 100%;
+	background-color: #DFDFDF;
+	color: #1f1f1f;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	padding: 10px 0;
+	cursor: pointer;
+}
+
+#submit-button:hover {
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	color: #efefef;
+	background-color: #1f1f1f;
+}
+
+		/* END COMMENTS FORM */
+
+	/* END COMMENTS SECTION */
 
 	/* STYLE FOOTER */
 

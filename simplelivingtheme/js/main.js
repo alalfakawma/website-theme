@@ -27,12 +27,24 @@ $(document).ready(function () {
 
 	$(window).scroll(checkScroll)
 
-	function checkScroll() {
-		if ($(this).scrollTop() > ($("#section-header-box").offset().top)) {
-	        $('#scroll-top').fadeIn();
-	    } else {
-	        $('#scroll-top').fadeOut();
-	    }
+		function checkScroll() {
+
+			var getBox = $("#section-header-box").length >= 1;
+
+			if 	(getBox) {
+				if ($(this).scrollTop() > ($("#section-header-box").offset().top)) {
+			        $('#scroll-top').fadeIn();
+			    } else {
+			        $('#scroll-top').fadeOut();
+			    }
+			}
+			else {
+				if ($(this).scrollTop() > ($("#main-header").height() + 100)) {
+			        $('#scroll-top').fadeIn();
+			    } else {
+			        $('#scroll-top').fadeOut();
+			    }
+			}
 	}
 
 });

@@ -14,7 +14,7 @@
 			</div>
 
 			<?php if (has_post_thumbnail()) : ?>
-				<div id="post-thumbnail"><?php the_post_thumbnail('custom'); ?></div>
+				<div id="post-thumbnail"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('custom'); ?></a></div>
 			<?php endif; ?>
 
 			<div id="post-content">
