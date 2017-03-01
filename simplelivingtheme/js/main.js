@@ -7,7 +7,14 @@ $(document).ready(function () {
 	// Scroll down with arrow click
 
 	$("#arrow").click(function() {
-	    $('html,body').animate({scrollTop: $("#main-wrapper").offset().top - 25},'slow');
+		var adminBar = $("body").hasClass("admin-bar");
+
+		if (adminBar) {
+	    	$('html,body').animate({scrollTop: $("#main-wrapper").offset().top - 25},'slow');
+	    }
+	    else {
+	    	$('html,body').animate({scrollTop: $("#main-wrapper").offset().top},'slow');
+	    }
 	});
 
 	// Sroll to top
