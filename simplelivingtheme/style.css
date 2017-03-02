@@ -679,10 +679,6 @@ footer {
 		float: none;
 	}
 
-	#sidebar-wrapper::after {
-		width: 500px;
-	}
-
 	#search-input {
 		width: 100%;
 	}
