@@ -3,7 +3,7 @@
 <?php if (have_posts()) : ?>
 	<article id="page-php">
 
-	<h1 style="color: #1f1f1f; font-size: 300%;">Site Archives -</h1>
+		<h1 style="color: #1f1f1f;">Archive for <?php echo get_the_date("F, Y"); ?></h1>
 	<?php while(have_posts()) : the_post(); ?>
 
 			<div id="main-post">
@@ -17,7 +17,7 @@
 				</div>
 
 				<div id="post-content">
-					<?php the_excerpt(); ?>
+						<?php the_excerpt(); ?>
 				</div>
 			</div>
 

@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+	var barHeight = $("#wpadminbar").outerHeight();
+
 	// Run functions
 
 	checkScroll();
@@ -10,7 +12,7 @@ $(document).ready(function () {
 		var adminBar = $("body").hasClass("admin-bar");
 
 		if (adminBar) {
-	    	$('html,body').animate({scrollTop: $("#main-wrapper").offset().top - 25},'slow');
+	    	$('html,body').animate({scrollTop: $("#main-wrapper").offset().top - barHeight},'slow');
 	    }
 	    else {
 	    	$('html,body').animate({scrollTop: $("#main-wrapper").offset().top},'slow');
@@ -45,6 +47,14 @@ $(document).ready(function () {
 			        $('#scroll-top').fadeOut();
 			    }
 			}
+	}
+
+	// Show mobile nav
+
+	$("#mobile-nav").click(showNav);
+
+	function showNav() {
+		$("#mobile-nav-link").slideToggle();
 	}
 
 });

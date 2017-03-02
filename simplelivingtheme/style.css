@@ -51,6 +51,39 @@ a {
 	position: relative;
 }
 
+#mobile-nav-link {
+	position: absolute;
+	background-color: #1f1f1f;
+	width: 100%;
+	max-width: 100%;
+	font-weight: 700;
+	font-size: 120%;
+	height: 100%;
+	display: none;
+	z-index: 9;
+	padding: 50px 0;
+}
+
+#mobile-nav-link li {
+	border: 1px solid #dfdfdf;
+	width: 200px;
+	margin: 20px auto 0 auto;
+	list-style-type: none;
+	text-align: center;
+}
+
+#mobile-nav-link a {
+	color: #dfdfdf;
+}
+
+#mobile-nav {
+	height: 50px;
+	width: 50px;
+	float: left;
+	z-index: 999;
+	background-image: url(img/mobile-nav.png);
+}
+
 #main-nav {
 	display: inline-block;
 	position: absolute;
@@ -224,6 +257,15 @@ h3 {
 	top: 7px;
 }
 
+#comments {
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #1f1f1f;
+	position: absolute;
+	top: 13px;
+	right: 28px;
+}
+
 #comments-meta:hover #comments {
 	-webkit-transition: color 1s;
 	transition: color 1s;
@@ -234,16 +276,6 @@ h3 {
 	-webkit-transition: color 1s;
 	transition: color 1s;
 	color: #1f1f1f;
-}
-
-
-#comments {
-	font-size: 2.5em;
-	font-weight: 700;
-	color: #1f1f1f;
-	position: absolute;
-	top: 13px;
-	right: 28px;
 }
 
 .font-awesome {
@@ -632,4 +664,275 @@ footer {
 
 
 /* ------------------------------------- START MEDIA QUERIES -------------------------------------- */
+
+@media screen and (max-width: 1330px) {
+
+	#post-wrapper {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar-wrapper {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar-wrapper::after {
+		width: 500px;
+	}
+
+	#search-input {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	#main-post {
+		font-size: 90%;
+	}
+
+	h1 {
+		font-weight: 800;
+		font-size: 3.5em;
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		font-weight: 700;
+		color: #fff;
+		font-size: 1.5em;
+	}
+
+	#post-meta {
+		height: 75px;
+		position: relative;
+	}
+
+	#post-meta-box {
+		width: 75px;
+		height: 75px;
+		padding: 12px 0;
+	}
+
+	#post-category {
+		font-size: 80%;
+		left: 100px;
+	}
+
+	#post-title {
+		left: 100px;
+		font-size: 2.5em;
+	}
+
+	#post-meta-box #meta-data {
+		font-size: 26px;
+	}
+
+	#post-meta-box #meta-data div {
+		font-size: 13px;
+	}
+
+	#post-thumbnail img {
+		width: 100%;
+		max-width: 100%;
+		max-height: 350px;
+	}
+
+	#page-php h1 {
+		font-size: 130% !important;
+	}
+
+	#search-input {
+		font-size: 90%;
+		height: 30px;
+	}
+
+	#sidebar-wrapper {
+		font-size: 90%;
+	}
+
+	.sidebar-header-box {
+		height: 30px;
+	}
+
+	.sidebar-header-box span {
+		line-height: 30px;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+
+	.container {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	#main-header {
+		height: 50px;
+		background-image: none;
+		background-color: #dfdfdf;
+	}
+
+	#main-wrapper {
+		padding: 0 10px;
+	}
+
+	#title h1 {
+		font-size: 110%;
+		color: #1f1f1f;
+	}
+
+	#title h3 {
+		font-size: 80%;
+		color: #1f1f1f;
+	}
+
+	#title {
+		width: 90%;
+		position: absolute;
+		text-align: left;
+		float: left;
+		top: 12%;
+		left: 60px;
+	}
+
+	#arrow {
+		display: none;
+	}
+
+	hr { 
+	    display: none;
+	}
+
+	#main-nav {
+		display: none;
+	}
+
+	#main-post {
+		font-size: 80%;
+	}
+
+	#main-post::after {
+		content: " ";
+		margin: 20px auto;
+		height: 1px;
+		width: 200px;
+	}
+
+	#post-meta {
+		height: 50px;
+		position: relative;
+	}
+
+	#post-meta-box {
+		width: 50px;
+		height: 50px;
+		padding: 10px 0;
+	}
+
+	#post-category {
+		font-size: 65%;
+		left: 75px;
+	}
+
+	#post-title {
+		left: 75px;
+		bottom: 25px;
+		font-size: 1.5em;
+	}
+
+	#post-meta-box #meta-data {
+		font-size: 15px;
+	}
+
+	#post-meta-box #meta-data div {
+		font-size: 8px;
+	}
+
+	#post-thumbnail img {
+		width: 100%;
+		max-width: 100%;
+		max-height: 200px;
+	}
+
+	#comments-meta {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	#comments {
+		font-size: 1.2em;
+		font-weight: 700;
+		color: #1f1f1f;
+		position: absolute;
+		top: 9px;
+		right: 16px;
+	}
+
+	.font-awesome {
+		font-size: 40px !important; 
+	}
+
+	#search-input {
+		font-size: 80%;
+		height: 20px;
+	}
+
+	#sidebar-wrapper {
+		font-size: 80%;
+	}
+
+	.sidebar-header-box {
+		height: 20px;
+	}
+
+	.sidebar-header-box span {
+		line-height: 20px;
+	}
+
+	#scroll-top {
+		opacity: .2;
+		bottom: 15px;
+		right: 50px;
+	}
+
+	.more-link {
+		margin: 20px 0 0 0;
+	}
+
+	#page-php h1 {
+		font-size: 100% !important;
+	}
+
+	footer {
+		font-size: 60%;
+	}	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
