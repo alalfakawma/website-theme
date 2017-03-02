@@ -2,10 +2,12 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="utf-8">
-	<meta name="keywords" content="aseem lalfakawma, aseem, lalfakawma, wordpress, blog, instagram, twitter, personal blog, blog, theme, web, developer, development, google">
+	<meta name="keywords" content="aseem lalfakawma, aseem, lalfakawma, wordpress, blog, instagram, twitter, personal blog, blog, theme, web, developer, development, google, simple, living, web development">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<title><?php bloginfo("name"); ?></title>
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
