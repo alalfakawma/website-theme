@@ -65,6 +65,7 @@ a {
 }
 
 #mobile-nav-link li {
+	padding: 10px 0;
 	border: 1px solid #dfdfdf;
 	width: 200px;
 	margin: 20px auto 0 auto;
@@ -81,6 +82,7 @@ a {
 	width: 50px;
 	float: left;
 	z-index: 999;
+	display: none;
 	background-image: url(img/mobile-nav.png);
 }
 
@@ -138,7 +140,7 @@ hr {
     margin-left: 20%;
     margin-right: 20%;
     border-color: #fff;
-    border-style: thin;
+    border-style: solid;
     border-width: 1px;
 }
 
@@ -693,17 +695,68 @@ footer {
 		font-size: 90%;
 	}
 
-	h1 {
-		font-weight: 800;
-		font-size: 3.5em;
-		color: #fff;
-		text-transform: uppercase;
+	.container {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
 	}
 
-	h3 {
-		font-weight: 700;
-		color: #fff;
+	#main-header {
+		height: 50px;
+	}
+
+	#main-wrapper {
+		padding: 0 10px;
+	}
+
+	#mobile-nav {
+		filter: invert(100%);
+	}
+
+	#title h1 {
+		font-size: 110%;
+	}
+
+	#title h3 {
+		font-size: 80%;
+	}
+
+	#title {
+		width: 90%;
+		position: absolute;
+		text-align: left;
+		float: left;
+		top: 12%;
+		left: 60px;
+	}
+
+	#arrow {
+		display: none;
+	}
+
+	hr { 
+	    display: none;
+	}
+
+	#main-nav {
+		display: none;
+	}
+
+	#mobile-nav {
+		display: block;
+	}
+
+	#comments {
 		font-size: 1.5em;
+		font-weight: 700;
+		color: #1f1f1f;
+		position: absolute;
+		top: 12px;
+		right: 19px;
+	}
+
+	.font-awesome {
+		font-size: 50px !important; 
 	}
 
 	#post-meta {
@@ -754,6 +807,12 @@ footer {
 		font-size: 90%;
 	}
 
+	#scroll-top {
+		opacity: .2;
+		bottom: 15px;
+		right: 75px;
+	}
+
 	.sidebar-header-box {
 		height: 30px;
 	}
@@ -774,8 +833,6 @@ footer {
 
 	#main-header {
 		height: 50px;
-		background-image: none;
-		background-color: #dfdfdf;
 	}
 
 	#main-wrapper {
@@ -784,12 +841,10 @@ footer {
 
 	#title h1 {
 		font-size: 110%;
-		color: #1f1f1f;
 	}
 
 	#title h3 {
 		font-size: 80%;
-		color: #1f1f1f;
 	}
 
 	#title {
