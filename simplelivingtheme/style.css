@@ -52,7 +52,7 @@ a {
 }
 
 #mobile-nav-link {
-	position: absolute;
+	position: fixed;
 	background-color: #1f1f1f;
 	width: 100%;
 	max-width: 100%;
@@ -78,6 +78,7 @@ a {
 }
 
 #mobile-nav {
+	position: fixed;
 	height: 50px;
 	width: 50px;
 	float: left;
@@ -698,11 +699,15 @@ footer {
 	}
 
 	#main-header {
+		top: 0;
+		left: 0;
+		position: fixed;
 		height: 50px;
+		z-index: 99;
 	}
 
 	#main-wrapper {
-		padding: 0 10px;
+		padding: 50px 10px 0 10px;
 	}
 
 	#mobile-nav {
@@ -828,10 +833,6 @@ footer {
 
 	#main-header {
 		height: 50px;
-	}
-
-	#main-wrapper {
-		padding: 0 10px;
 	}
 
 	#title h1 {
